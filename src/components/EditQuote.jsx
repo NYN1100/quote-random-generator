@@ -34,7 +34,7 @@ const EditQuotePage = () => {
 
       {isLoading && <MoonLoader size={100} />}
       {quote && author && (
-        <div className="m-20 flex flex-col items-center justify-center">
+        <div className="m-10 flex flex-col items-center justify-center">
           <h1>Edit Quote</h1>
           <FormPage author={author} quote={quote} id={id} />
         </div>

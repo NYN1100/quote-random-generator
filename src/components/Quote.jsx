@@ -27,7 +27,7 @@ const QuotePage = () => {
   return (
     <>
       <Header />
-      <div className="mx-20 my-32 flex items-center justify-center">
+      <div className="mt-32 mx-5 flex items-center justify-center">
         <QuoteBox quote={quote[0]} />
       </div>
     </>

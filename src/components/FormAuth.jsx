@@ -38,21 +38,19 @@ const FormAuth = ({ h }) => {
     }
   };
   return (
-    <div className="p-10 bg-blue-400 rounded-md shadow-2xl">
+    <div className="p-3 bg-blue-400 rounded-md shadow-2xl">
       <h1>{h}</h1>
       <form
         onSubmit={onSubmit}
         className="flex flex-col items-center justify-center gap-7"
       >
         <input
-          size={30}
           className="p-2 rounded-md"
           type="email"
           placeholder="Write your email"
           onChange={(e) => setEmail(e.target.value.trim())}
         />
         <input
-          size={30}
           className="p-2 rounded-md"
           type="password"
           placeholder="Write your password"

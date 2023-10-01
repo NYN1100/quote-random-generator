@@ -40,7 +40,7 @@ const Header = () => {
       });
   };
   return (
-    <div className="flex justify-around items-center p-5 bg-blue-500 h-[10vh]">
+    <div className="flex justify-around items-center p-5 bg-blue-500  h-[10vh]">
       <div className="cursor-pointer" onClick={() => navigate("/")}>
         <h3 className="md:text-2xl">Quote Random Generator</h3>
       </div>

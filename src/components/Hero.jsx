@@ -36,9 +36,9 @@ const HeroPage = () => {
   };
 
   return (
-    <div className="p-20 h-[90vh] flex items-center justify-center">
-      <div className="h-96 w-[34rem] rounded-lg  bg-blue-400 shadow-2xl flex flex-col justify-center items-center">
-        <div className="p-10 border-y w-full flex flex-col items-center justify-center">
+    <div className="mt-32 m-5 flex items-center justify-center">
+      <div className="w-[34rem] p-5 rounded-lg  bg-blue-400 shadow-2xl flex flex-col justify-center items-center">
+        <div className="p-10 border-b w-full flex flex-col items-center justify-center">
           {isLoading && <MoonLoader />}
           <h3 className="text-lg md:text-2xl">{quote?.data?.quote}</h3>
           <p className="mt-5 text-gray-600">{quote?.data?.author}</p>

@@ -22,7 +22,7 @@ const AuthorPage = () => {
   return (
     <>
       <Header />
-      <div className="mx-32 my-20 flex flex-wrap justify-center items-center gap-10">
+      <div className="mt-10 flex flex-wrap justify-center items-center gap-10">
         {authors.map((author, i) => (
           <div
             key={i}

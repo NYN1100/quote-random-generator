@@ -28,10 +28,10 @@ const QuotesPage = () => {
     <>
       <Header />
       <div>
-        <div className="p-10 mx-10  rounded-md">
+        <div className="mx-5 my-5 rounded-md">
           <div className="flex flex-col items-center justify-center">
             <button
-              className=" px-8 py-4 rounded-sm bg-blue-800 text-white border-black mb-2"
+              className="px-8 py-4 rounded-sm bg-blue-800 text-white border-black mb-2"
               onClick={() => navigate("/addquote")}
             >
               Add quote

@@ -29,14 +29,13 @@ const LoginPage = () => {
     <>
       <Header />
       <div className="mt-20 flex flex-col items-center justify-center">
-        <div className="p-10 bg-blue-400 rounded-md shadow-2xl">
+        <div className="bg-blue-400 p-3 rounded-md shadow-2xl">
           <h1>Login</h1>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col items-center justify-center gap-7"
           >
             <input
-              size={30}
               className="p-2 rounded-md"
               type="email"
               value={email}
@@ -44,7 +43,6 @@ const LoginPage = () => {
               onChange={(e) => setEmail(e.target.value.trim())}
             />
             <input
-              size={30}
               value={password}
               className="p-2 rounded-md"
               type="password"

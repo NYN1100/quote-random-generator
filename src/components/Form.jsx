@@ -36,7 +36,7 @@ const FormPage = ({ quote: existingQuote, author: existingAuthor, id }) => {
     }
   };
   return (
-    <div className="border-2 border-blue-900 bg-blue-400 rounded-md p-14 shadow-2xl">
+    <div className="border-2 border-blue-900 bg-blue-400 rounded-md p-5 shadow-2xl">
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
         <textarea
           value={quote}
