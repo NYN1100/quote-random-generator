@@ -40,7 +40,8 @@ const FormPage = ({ quote: existingQuote, author: existingAuthor, id }) => {
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
         <textarea
           value={quote}
-          onChange={(e) => setQuote(e.target.value.trim())}
+          required
+          onChange={(e) => setQuote(e.target.value)}
           className="p-5 pb-32 border-2 border-blue-900 rounded-lg"
           placeholder="Write your quote here..."
         ></textarea>
@@ -49,7 +50,8 @@ const FormPage = ({ quote: existingQuote, author: existingAuthor, id }) => {
           className="border-2 p-1 border-blue-900 rounded-md"
           type="text"
           placeholder="Author"
-          onChange={(e) => setAuthor(e.target.value.trim())}
+          required
+          onChange={(e) => setAuthor(e.target.value)}
         />
         <button className="px-4 py-2 bg-blue-900 text-white">Save</button>
       </form>
